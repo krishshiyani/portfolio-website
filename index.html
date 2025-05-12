@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!-- Hello -->
+    <header class="header" id="header">
+        <a href="index.html" class="logo"><span class="main-icon"></span><span>K.S</span></a>
+
+        <div class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="career.html">Career</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="testimonials.html">Testimonials</a>
+        </div>
+
+        <div class="main">
+            <a href="contact.html" class="user main-items"><i class="fas fa-envelope cm-icon"></i>Contact
+                Me</a>
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="column right">
+                   <!-- <img src="Assets/main-image.jpg" alt="">-->
+                </div>
+                <div class="column left">
+                    <div class="text">I'm Krish and I'm a <span id="typed" class="iAm"></span></div>
+                    <p>
+                      I'm a passionate Frontend Developer focused on crafting clean, responsive, and user-friendly websites. With a unique blend of creativity and technical skills, I bring ideas to life through visually appealing and fully functional digital experiences.
+
+                    </p>
+                    <div class="buttons">
+                        <a href="krish.pdf">Download CV</a>
+                        <a href="contact.html" class="cm-button">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="left">
+                &copy; Built with HTML, CSS, JS & a lot of ☕.
+                © 2025 Krish Kumar | Let’s build something great together.
+            </div>
+            <div class="right">
+                <div class="social"><a href="https://www.facebook.com/share/16HsP8WDVq/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a></div>
+                <div class="social"><a href="https://www.instagram.com/krish.09895?igsh=OXgzdWhxamEyYTVw"
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="social"><a href="https://github.com/krishshiyani" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a></div>
+                <div class="social"><a href="https://github.com/krishshiyani" target="_blank"><i
+                            class="fa-brands fa-github"></i></a></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Web Developer', 'Fronted Devloper',],
+            typeSpeed: 55,
+        });
+    </script>
+
+</body>
+
+</html>
